@@ -16,11 +16,11 @@ export default function NavBar() {
 
   return (
     <>
-  <nav className="fixed">
+  <nav className="sticky">
       <div
         class="w-[100vw] h-[10vh] flex justify-between items-center sm:w-[100vw] sm:h-[10vh] sm:flex sm:justify-evenly sm:items-center"
       >
-         <h1 className="inline-flex">DoctorFinderHub <span class="material-symbols-outlined">add_circle</span></h1>
+         <h1 className="inline-flex font-bold">DoctorFinderHub <span class="material-symbols-outlined">add_circle</span></h1>
 
         <ul
           class="hidden sm:flex sm:space-x-9 sm:justify-center sm:items-center font-semibold"
