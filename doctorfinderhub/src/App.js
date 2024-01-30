@@ -1,10 +1,11 @@
 
 import './App.css';
+import NavBar from './LandingComponent/NavBar';
 
 function App() {
   return (
     <>
-     <div className="text-blue-600 text-center">hii this is abraar</div>
+     <NavBar/>
       
     </>
   );
