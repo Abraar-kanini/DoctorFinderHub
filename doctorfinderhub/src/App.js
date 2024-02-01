@@ -1,5 +1,6 @@
 
 import './App.css';
+import Cards from './LandingComponent/Cards';
 import NavBar from './LandingComponent/NavBar';
 import SwiperSection from './LandingComponent/SwiperSection';
 
@@ -12,6 +13,8 @@ function App() {
      <NavBar/>
   
      <SwiperSection/>
+
+     <Cards/>
 
 
       
