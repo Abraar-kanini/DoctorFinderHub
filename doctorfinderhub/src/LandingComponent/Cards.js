@@ -3,8 +3,8 @@ import React from 'react'
 export default function Cards(props) {
   return (
     <>
-     
-      <div className="h-[60vh] w-[20vw]  border border-white">
+      
+      <div className="h-[60vh] w-[20vw]  border border-white shadow-lg shadow-gray-500/50">
         <div class="border border-white w-full h-[60%] flex justify-center items-center">
           <img src={props.doctorimage} alt="DoctorCard" class="w-full h-full object-cover" />
         </div>
