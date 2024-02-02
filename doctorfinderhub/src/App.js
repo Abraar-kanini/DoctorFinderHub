@@ -2,6 +2,7 @@
 import './App.css';
 import Cards from './LandingComponent/Cards';
 import DoctorSection from './LandingComponent/DoctorSection';
+import HospitalDepartment from './LandingComponent/HospitalDepartment';
 import LatestNewsSection from './LandingComponent/LatestNewsSection';
 import NavBar from './LandingComponent/NavBar';
 import Service from './LandingComponent/Service';
@@ -56,14 +57,38 @@ function App() {
       <div className=" w-[85vw] m-auto flex  gap-10">
 
 
-<LatestNewsSection NewsImage="NewsImage1.jpg" NewsName="Together we can do so much" AboutNews="Chosen from among all others by the Immortal Elders - Solomon, Hercules, Atlas, Zeus, Achilles, Mercury..." Date="Apr 8, 2016" />
-<LatestNewsSection NewsImage="NewsImage2.jpg" NewsName="The Three Musketeers Surgical Team" AboutNews="One thousand years ago, superstition and the sword ruled. It was a time of darkness. It.." Date="Apr 8, 2016" />
-<LatestNewsSection NewsImage="NewsImage3.jpg" NewsName="Accredited surgical facility" AboutNews="Since the dawn of time, there has been a process to developing web presentations - you..." Date="Apr 8, 2016" />
-<LatestNewsSection NewsImage="NewsImage4.jpg" NewsName="Health checks for babies" AboutNews="Somewhere out in space live The Herculoids! Zok, the laser-ray dragon! Igoo, the giant rock ape!..." Date="Apr 8, 2016" />
+        <LatestNewsSection NewsImage="NewsImage1.jpg" NewsName="Together we can do so much" AboutNews="Chosen from among all others by the Immortal Elders - Solomon, Hercules, Atlas, Zeus, Achilles, Mercury..." Date="Apr 8, 2016" />
+        <LatestNewsSection NewsImage="NewsImage2.jpg" NewsName="The Three Musketeers Surgical Team" AboutNews="One thousand years ago, superstition and the sword ruled. It was a time of darkness. It.." Date="Apr 8, 2016" />
+        <LatestNewsSection NewsImage="NewsImage3.jpg" NewsName="Accredited surgical facility" AboutNews="Since the dawn of time, there has been a process to developing web presentations - you..." Date="Apr 8, 2016" />
+        <LatestNewsSection NewsImage="NewsImage4.jpg" NewsName="Health checks for babies" AboutNews="Somewhere out in space live The Herculoids! Zok, the laser-ray dragon! Igoo, the giant rock ape!..." Date="Apr 8, 2016" />
 
 
-</div>
+      </div>
 
+      <Testimonials Heading="HOSPITAL DEPARTMENTS" />
+
+      <div className="w-[90vw]   m-auto flex flex-wrap gap-9">
+
+        <HospitalDepartment DepartmentImage="Cardiology.jpg" DepartmentName="Cardiology" AboutDepartment="Here's the story of a lovely lady, who was bringing up three very lovely..." />
+
+        <HospitalDepartment DepartmentImage="Dental.jpg" DepartmentName="Dental" AboutDepartment="We never thought of findin' a place where we belong. Don't have to stand..." />
+
+
+        <HospitalDepartment DepartmentImage="Neurologist.jpg" DepartmentName="Neurologist" AboutDepartment="You unlock this door with the key of imagination. Beyond it is another dimension:...  " />
+
+
+        <HospitalDepartment DepartmentImage="Pediatric.jpg" DepartmentName="Pediatric" AboutDepartment="One thousand years ago, superstition and the sword ruled. It was a time of..." />
+
+        <HospitalDepartment DepartmentImage="Pulmonary.jpg" DepartmentName="Pulmonary" AboutDepartment="Life is like a hurricane here in Duckburg. Race cars, lasers, aeroplanes - it's..." />
+
+        <HospitalDepartment DepartmentImage="Traumatology.jpg" DepartmentName="Traumatology" AboutDepartment="Your tread must be light and sure, as though your path were upon rice..." />
+
+        <HospitalDepartment DepartmentImage="Urology.jpg" DepartmentName="Urology" AboutDepartment="They're creepy and they're kooky, mysterious and spooky. They're all together ooky, the Addams..." />
+
+
+        <HospitalDepartment DepartmentImage="Xray.jpg" DepartmentName="Xray" AboutDepartment="I bet we been together for a million years, And I bet we'll be..." />
+
+      </div>
 
 
     </>
