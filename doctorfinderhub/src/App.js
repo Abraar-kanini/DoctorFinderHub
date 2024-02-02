@@ -4,6 +4,8 @@ import Cards from './LandingComponent/Cards';
 import DoctorSection from './LandingComponent/DoctorSection';
 import NavBar from './LandingComponent/NavBar';
 import SwiperSection from './LandingComponent/SwiperSection';
+import TestimonialSwiper from './LandingComponent/TestimonialSwiper';
+import Testimonials from './LandingComponent/Testimonials';
 
 
 function App() {
@@ -23,6 +25,10 @@ function App() {
         <Cards doctorimage="DoctorCard4.jpg" doctorName="Dr. Peter Parker" domain="Neurologist" about="Parker was born and raised in UK, North Way Australia He graduated from the University of..." />
 
       </div>
+
+      <Testimonials/>
+
+      <TestimonialSwiper/>
 
 
     </>
