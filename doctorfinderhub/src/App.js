@@ -26,9 +26,13 @@ function App() {
 
       </div>
 
-      <Testimonials/>
+      <Testimonials Heading="TESTIMONIALS"/>
 
       <TestimonialSwiper/>
+
+      <Testimonials Heading="OUR SERVICES"/>
+
+      
 
 
     </>
