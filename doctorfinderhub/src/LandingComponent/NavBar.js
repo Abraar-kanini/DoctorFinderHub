@@ -18,7 +18,7 @@ export default function NavBar() {
     <>
   <nav className="sticky">
       <div
-        class="w-[100vw] h-[10vh] flex justify-between items-center sm:w-[100vw] sm:h-[10vh] sm:flex sm:justify-evenly sm:items-center"
+        class="w-[90vw] h-[10vh] flex justify-between items-center sm:w-[90vw] sm:h-[10vh] sm:flex sm:justify-evenly sm:items-center"
       >
          <h1 className="inline-flex font-bold">DoctorFinderHub <span class="material-symbols-outlined">add_circle</span></h1>
 

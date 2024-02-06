@@ -2,6 +2,7 @@
 import './App.css';
 import Cards from './LandingComponent/Cards';
 import DoctorSection from './LandingComponent/DoctorSection';
+import Footer from './LandingComponent/Footer';
 import HospitalDepartment from './LandingComponent/HospitalDepartment';
 import LatestNewsSection from './LandingComponent/LatestNewsSection';
 import NavBar from './LandingComponent/NavBar';
@@ -67,7 +68,7 @@ function App() {
 
       <Testimonials Heading="HOSPITAL DEPARTMENTS" />
 
-      <div className="w-[90vw]   m-auto flex flex-wrap gap-9">
+      <div className="w-[90vw]   m-auto flex flex-wrap gap-9 mb-7">
 
         <HospitalDepartment DepartmentImage="Cardiology.jpg" DepartmentName="Cardiology" AboutDepartment="Here's the story of a lovely lady, who was bringing up three very lovely..." />
 
@@ -89,6 +90,9 @@ function App() {
         <HospitalDepartment DepartmentImage="Xray.jpg" DepartmentName="Xray" AboutDepartment="I bet we been together for a million years, And I bet we'll be..." />
 
       </div>
+
+
+      <Footer  />
 
 
     </>
