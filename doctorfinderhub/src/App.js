@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import LandingPage from './LandingPageComponent/LandingPage';
+import VerifyDoctor from './DoctorFlowComponents/VerifyDoctor';
 
 
 function App() {
@@ -18,6 +19,10 @@ function App() {
     {
       path: "/Register",
       element: <><DoctorRegister/></>,
+    },
+    {
+      path: "/verify",
+      element: <><VerifyDoctor/></>,
     }
   ]);
   return (
