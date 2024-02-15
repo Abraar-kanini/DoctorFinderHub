@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-
+import { useNavigate } from 'react-router-dom';
 function DoctorRegister() {
-
+    const navigate = useNavigate();
     const [postData, setPostData] = useState({
         doctorName: "",
         email: "",
@@ -38,6 +38,10 @@ function DoctorRegister() {
             console.log("Form Submitted");
             console.log(response.status);
             console.log(response.statusText);
+            if (response.status === 200) {
+                // Redirect to VerifyComponent upon successful response
+                navigate("/verify");
+            }
         }
         catch (error) {
 
