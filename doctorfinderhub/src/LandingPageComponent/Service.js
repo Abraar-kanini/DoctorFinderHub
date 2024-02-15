@@ -12,7 +12,7 @@ export default function Service(props) {
           {/* eslint-disable jsx-a11y/heading-has-content */}
           <h1></h1>
           <h1 className="text-[#01579b]">{props.ServiceName}</h1>
-
+         
           
           <p>{props.AboutService}</p>
         </div>
